@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+          android:id="@+id/map"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          class="com.google.android.gms.maps.SupportMapFragment"
+          map:cameraBearing="112.5"
+		  map:cameraTargetLat="14.6419036151845"
+		  map:cameraTargetLng="-90.51324251708985"
+		  map:cameraTilt="35"
+		  map:cameraZoom="14"/>

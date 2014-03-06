@@ -1,0 +1,43 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/roundedcorners"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:radius="5dp"
+        android:src="@drawable/vih_pic" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="\nEsta es una aplicación guía para personas en GUATEMALA que deseen saber si están infectadas o en caso de estar infectadas, saber cuáles son los pasos a seguir.\n 
+        \nCon esta aplicación usted podrá:\n
+        \n- Ver tratamientos a seguir y agregarlos a su agenda personal dentro del teléfono.
+        \n- Localizar las clínicas especializadas en VIH más cercanas. 
+        \n- Ver y compartir información con la agrupación ONUSIDAGuate desde su plataforma en Twitter.\n" />
+
+    <Button
+        android:id="@+id/entrar"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Entrar" />
+
+</LinearLayout>
+</ScrollView>
